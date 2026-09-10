@@ -15,7 +15,7 @@
         <div class="text-center">
             <h1>Grupo 6</h1>
             <h3>Integrantes</h3>
-            <p>Ariel Jiménez - - Integrante 3</p>
+            <p>Ariel Jiménez-Luis Mendez-Jeikon Aguilar-Sebastian Rivera-Alejandra Jiménez-Samir Sandoval</p>
         </div>
 
         <!-- Formulario -->
@@ -37,9 +37,40 @@
                     >
                 </div>
 
+                <div class="mb-3">
+                    <label for="archivo" class="form-label">
+                        Archivo
+                    </label>
+
+                    <input 
+                        type="file" 
+                        class="form-control" 
+                        id="archivo"
+                        name="archivo"
+                    >
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">
+                        Subir archivo
+                    </button>
+                </div>
+
             </form>
 
-        </div>
+
+             <!-- FORMULARIO -->
+
+<div class="form-floating mb-3">
+<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+<label for="floatingInput">Email address</label>
+</div>
+<div class="form-floating">
+<input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+<label for="floatingPassword">Password</label>
+</div>
+
+</div>
 
     </div>
     </main>
